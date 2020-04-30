@@ -29,7 +29,6 @@ class Course
   end
 
   def reset_all
-    @@all = []
   end
 
   def self.all
