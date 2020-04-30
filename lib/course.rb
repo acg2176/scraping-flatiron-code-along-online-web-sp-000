@@ -1,7 +1,7 @@
 class Course
   attr_accessor :title
 
-
+  @@all = []
 
   def title=(title)
     @title = title
