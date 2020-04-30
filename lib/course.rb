@@ -1,7 +1,7 @@
 class Course
   attr_accessor :title
 
-  @@all = []
+
 
   def title=(title)
     @title = title
@@ -26,6 +26,10 @@ class Course
 
   def description
     @description
+  end
+
+  def reset_all
+    @@all = []
   end
 
   def self.all
